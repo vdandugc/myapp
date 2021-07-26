@@ -56,4 +56,5 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'coach', git: 'git@github.com:gocardless/coach.git', branch: 'zeitwerk'
+# gem 'coach', git: 'git@github.com:gocardless/coach.git', branch: 'zeitwerk'
+gem 'coach'
