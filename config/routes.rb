@@ -6,7 +6,7 @@ Myapp::Application.routes.draw do
 
   router = Coach::Router.new(self)
 
-  router.draw(Routes::Articles,
+  router.draw("Routes::Articles",
     base: "/articles",
     actions: [
       :index
